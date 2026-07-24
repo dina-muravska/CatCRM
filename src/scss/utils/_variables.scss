@@ -1,4 +1,4 @@
-$breacpoints: (
+$breakpoints: (
   'sm': 375px,
   'md': 768px,
   'lg': 1200px,
@@ -41,3 +41,22 @@ $spacers: (
 );
 
 $main-font: 'Montserrat';
+
+$font-weights: (
+  'Regular': 400,
+  'Medium': 500,
+  'SemiBold': 600,
+  'Bold': 700,
+);
+
+$font-sizes: (
+  'sm': 14px,
+  'md': 16px,
+  'lg': 20px,
+  'xl': 24px,
+);
+
+$easings: (
+  'fast': 300ms ease,
+  'slow': 600ms ease,
+);
