@@ -5,10 +5,9 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "vite build",
+    "build": "vite build --base=/CatCRM/",
     "preview": "vite preview",
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d dist"
+    "watch": "npx vite build --watch"
   },
   "devDependencies": {
     "@fullhuman/postcss-purgecss": "^8.0.0",
