@@ -4,7 +4,33 @@
 @use '../utils/mixins' as mx;
 
 .main {
+  display: grid;
+  gap: 40px;
+  padding: 16px;
+  grid-template-areas:
+    'welcome'
+    'co-workers'
+    'taska'
+    'reports';
+
+  @include mx.mq('md') {
+    gap: 36px;
+    padding: 36px;
+
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-areas:
+      'welcome welcome'
+      'co-workers co-workers'
+      'tasks reports';
+  }
+
   @include mx.mq('lg') {
     grid-area: main;
+
+    grid-template-columns: repeat(auto-fit, minmax(455px, 629px));
+    grid-template-areas:
+      'welcome welcome'
+      'co-workers tasks'
+      'co-workers reports';
   }
 }
