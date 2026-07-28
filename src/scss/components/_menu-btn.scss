@@ -19,12 +19,16 @@
   }
 
   &-icon {
-    fill: fn.get-color('current');
-    stroke: fn.get-color('current');
+    color: inherit;
+    fill: #ffffff;
+    stroke: #ffffff;
+    opacity: 1;
+    filter: drop-shadow(0 0 1px rgba(0, 0, 0, 0.35));
 
     use {
-      fill: fn.get-color('current');
-      stroke: fn.get-color('current');
+      color: inherit;
+      fill: #ffffff;
+      stroke: #ffffff;
     }
   }
 
