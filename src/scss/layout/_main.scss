@@ -10,7 +10,7 @@
   grid-template-areas:
     'welcome'
     'co-workers'
-    'taska'
+    'tasks'
     'reports';
 
   @include mx.mq('md') {
