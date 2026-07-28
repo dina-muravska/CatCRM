@@ -20,6 +20,12 @@
 
   &-icon {
     fill: fn.get-color('current');
+    stroke: fn.get-color('current');
+
+    use {
+      fill: fn.get-color('current');
+      stroke: fn.get-color('current');
+    }
   }
 
   .sidebar & {
