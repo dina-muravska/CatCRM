@@ -10,17 +10,6 @@ import purgecss from '@fullhuman/postcss-purgecss';
 export default defineConfig({
   base: '/CatCRM/',
   plugins: [
-    ViteImageOptimizer({
-      png: {
-        quality: 86,
-      },
-      jpeg: {
-        quality: 86,
-      },
-      jpg: {
-        quality: 86,
-      },
-    }),
     {
       ...imagemin(['./src/img/**/*.{jpg,png,jpeg}'], {
         destination: './src/img/webp/',
