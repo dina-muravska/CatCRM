@@ -1,8 +1,8 @@
-# 🐱 Cat CRM
+# 🐱 CatCRM
 
 ## 📖 About the Project
 
-**Cat CRM** is a responsive CRM dashboard interface built as a frontend practice project.
+**CatCRM** is a responsive CRM dashboard interface built as a frontend practice project.
 
 The project focuses on creating a modern admin dashboard layout using reusable SCSS architecture, Sass features, and responsive design principles. It was developed to practice building clean, scalable user interfaces with modern frontend tools.
 
